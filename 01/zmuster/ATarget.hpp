@@ -9,6 +9,7 @@ class ATarget {
 		std::string _type;
 	
 	public:
+		ATarget();
 		ATarget(std::string type);
 		ATarget &operator=(ATarget const &other);
 		ATarget (ATarget const &other);
